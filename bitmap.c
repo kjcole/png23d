@@ -10,11 +10,15 @@
  * png to bitmap conversion
  */
 
+// 2019.04.18 KJC - added include
+//                  See https://wiki.gentoo.org/wiki/PNG23D
+//
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>  // 2019.04.18 KJC
 
 #include <png.h>
 
